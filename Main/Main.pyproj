@@ -21,6 +21,24 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Burning.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Color.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drag.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EFile.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Example.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Font.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Main.py" />
     <Compile Include="MainForm.py" />
   </ItemGroup>
