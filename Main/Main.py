@@ -12,14 +12,17 @@ from Font import Font
 from EFile import EFile
 from Drag import Drag
 from Burning import Burn
+from DragButton import DragButton
+from DrawDot import DrawDot
+from DrawPen import DrawPen
 
 class MyWindow(QWidget, Ui_Dialog):
  def __init__(self, *args, **kwargs):
 
      super().__init__(*args, **kwargs)
      self.setupUi(self)
-     self.initUILCD()
-     #self.iniUI()
+     #self.initUILCD()
+     self.iniUI()
 
      '''
      类的内部变量定义
@@ -163,10 +166,10 @@ class MyWindow(QWidget, Ui_Dialog):
         
      self.setLayout(vbox)
 
-     self.statusBar().showMessage('Ready')
+     #self.statusBar().showMessage('Ready')
      self.showMaximized()
      #self.setGeometry(300, 300, 300, 150)
-     self.show()
+     #self.show()
 
  def OnPushButton1(self):
 
@@ -208,6 +211,6 @@ class Communicate(QObject):
 
 if __name__ == "__main__":
  app = QApplication(sys.argv)
- mainWindow = Burn()
+ mainWindow = Example()
  #mainWindow.show()
  sys.exit(app.exec_())

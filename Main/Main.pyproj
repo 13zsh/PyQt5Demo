@@ -30,6 +30,15 @@
     <Compile Include="Drag.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DragButton.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DrawDot.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DrawPen.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="EFile.py">
       <SubType>Code</SubType>
     </Compile>
